@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+rope = "*"
+autopep8 = "*"
+
+[packages]
+telethon = "==0.19"
+selenium = "==3.12.0"
+python-telegram-bot = "==10.1.0"
+requests = "==2.18.4"
+python-bittrex = "==0.3.0"
+keras = "==2.2.4"
+tensorflow = "==1.12.0"
+python-binance = "==0.6.9"
+ccxt = "==1.18.45"
+
+[requires]
+python_version = "3.6"
